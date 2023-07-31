@@ -163,10 +163,13 @@ resource "yandex_lb_network_load_balancer" "lb-1" {
 
 *2. Скриншот статуса балансировщика и целевой группы.*
 
+<details>
+
 ![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/0f8c1b8e-da6c-4e73-a8c9-c064f33864e3)
 
 ![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/d108fe99-209d-498b-8d89-2c5154b24bbd)
 
+</details>
 
 *3. Скриншот страницы, которая открылась при запросе IP-адреса балансировщика.*
 
