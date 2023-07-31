@@ -167,13 +167,27 @@ resource "yandex_lb_network_load_balancer" "lb-1" {
 
 <details>
 
-![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/0f8c1b8e-da6c-4e73-a8c9-c064f33864e3)
+![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/1f21a28b-2b9b-42e0-8d59-81827a6e7571)
 
-![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/d108fe99-209d-498b-8d89-2c5154b24bbd)
+![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/c6147f4b-14c0-4d51-b368-0ccddbd29712)
+
+![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/a27c7939-b6b5-4038-bd1a-06bf2a7c879b)
+
+![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/76a38b3e-c515-4b44-b96d-00ac180fc162)
+
+![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/70ef5c81-f589-485c-8bde-6a07b211fdaa)
 
 </details>
 
 *3. Скриншот страницы, которая открылась при запросе IP-адреса балансировщика.*
+
+<details>
+
+![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/af0fc7f8-3e5f-4a5d-a234-a323207def5e)
+
+![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/cb2dd1df-7627-4539-8fa3-e57b6ce4a158)
+
+</details>
 
 ---
 
@@ -181,6 +195,8 @@ resource "yandex_lb_network_load_balancer" "lb-1" {
 Эти задания дополнительные. Выполнять их не обязательно. На зачёт это не повлияет. Вы можете их выполнить, если хотите глубже разобраться в материале.
 
 ---
+
+<details>
 
 ## Задание 2*
 
@@ -206,4 +222,4 @@ resource "yandex_lb_network_load_balancer" "lb-1" {
 
 *3. Скриншот страницы, которая открылась при запросе IP-адреса балансировщика.*
 
-
+</details>
