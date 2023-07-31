@@ -183,6 +183,36 @@ resource "yandex_lb_network_load_balancer" "lb-1" {
 
 <details>
 
+Установка nginx была сделана с помощью ansible.
+
+Сначала был создан файл hosts со следующим содержанием:
+
+```
+[servers]
+vm0 ansible_host=158.160.97.68 ansible_user=chistov ansible_ssh_private_key_file=/home/chistov/terraform/id_rsa
+vm1 ansible_host=158.160.110.69 ansible_user=chistov ansible_ssh_private_key_file=/home/chistov/terraform/id_rsa
+```
+
+И файл playbook-nginx.yml:
+
+```
+---
+- hosts: "all"
+  tasks:
+  - name: Install nginx
+    apt:
+      name: nginx
+      state: latest
+
+  - name: Start nginx
+    systemd:
+      name: nginx
+      enabled: true
+      state: started
+```
+
+![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/bc69b712-0627-4493-83d1-5e123efb1f28)
+
 ![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/af0fc7f8-3e5f-4a5d-a234-a323207def5e)
 
 ![image](https://github.com/Ivashka80/CloudBalance/assets/121082757/cb2dd1df-7627-4539-8fa3-e57b6ce4a158)
